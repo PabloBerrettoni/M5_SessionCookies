@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+h1 {
+    margin-top: 10%;
+    text-align: center;
+    width: 100%;
+    background-color: lightgray;
+    width: 50%;
+}
+
+form {
+    display: flex;
+    width: 50%;
+    flex-direction: column;
+    gap: 15px;
+    background-color: lightgray;
+    padding: 10px;
+    margin: auto;
+    border-radius: 2%;
+}

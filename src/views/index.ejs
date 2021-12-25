@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Index</title>
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+
+    <h1>Registro</h1>
+
+    <form action="/" method="post">
+
+        <label for="nombre">Ingrese su nombre</label>
+        <input type="text" name="nombre" id="nombre" value="">
+    
+        <label for="mail">Ingrese su email</label>
+        <input type="text" name="mail" id="mail" value="">
+    
+        <label for="edad">Ingrese su edad</label>
+        <input type="tel" name="edad" id="edad" value="">
+    
+        <label for="fondo">Elija un color de fondo</label>
+        <select name="fondo" id="fondo">
+            <option value="" selected disabled > -- Elija un color -- </option>
+            <option value="Amarillo">Amarillo</option>
+            <option value="Verde">Verde</option>
+            <option value="Azul">Azul</option>
+        </select>
+    
+        <div>
+            <input type="checkbox" name="check_color" id="check_color">Recordar color
+        </div>
+
+        <button type="submit">ENVIAR</button>
+    
+    </form>
+
+</body>
+</html>
